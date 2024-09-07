@@ -15,6 +15,7 @@ int main(){
 	int arreglo[]={1,2,3,4,5};
 	int tamano = sizeof(arreglo)/sizeof(arreglo[0]);
 	int indices = tamano - 1;
+	
 	cout << "La suma de los elementos del arreglo es: " << sumaElemArray(arreglo, indices);
 	return 0;
 }
